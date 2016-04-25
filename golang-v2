@@ -1,0 +1,15 @@
+R2PM_BEGIN
+
+R2PM_GIT "https://github.com/radare/radare2"
+R2PM_DESC "[syspkg-golang] Native r2 Go API (golang.org)"
+
+R2PM_INSTALL() {
+mkdir $GOPATH/src/r_bin || exit 1
+cd ../../../../radare2-bindings/go || exit 1 
+make
+cp * $GOPATH/src/r_bin || exit 1
+} 
+
+R2PM_UNINSTALL() {
+        rm -rf $GOPATH/src/r_bin || exit 1 
+}
