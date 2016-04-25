@@ -1,7 +1,7 @@
 R2PM_BEGIN
 
 R2PM_GIT "https://github.com/radare/r2pipe.go
-R2PM_DESC "[r2pipe-go] r2 bindings for the go languange (golang.org)
+R2PM_DESC "[golang] native r2 bindings for the go languange (golang.org)
 
 R2PM_INSTALL() {
 
