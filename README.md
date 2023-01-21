@@ -8,7 +8,7 @@ example:
 import (
 	"fmt"
 
-	"github.com/radare/r2pipe.go"
+	"github.com/radareorg/r2pipe-go"
 )
 
 func main() {
